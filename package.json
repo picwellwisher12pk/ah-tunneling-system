@@ -1,0 +1,21 @@
+{
+  "name": "ah-tunneling-system",
+  "version": "1.0.0",
+  "description": "A tunneling and port forwading system",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "python",
+    "tunneling",
+    "port forwarding",
+    "ssh",
+    "scp"
+
+  ],
+  "author": "Amir hameed",
+  "license": "ISC"
+}
