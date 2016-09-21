@@ -1,0 +1,42 @@
+doctype html
+html(lang="en")
+  head
+    title Tunneling system
+    link(href="css/main.css", rel="stylesheet")
+    script(type="text/javascript", src="js/main.js")
+  body
+    header
+      .container
+        h1 SSH Connections
+    main
+      .container
+        .col-md-6
+          h2 Connections
+          div
+            ul
+              li
+                a(href="") SSH connection name
+              li
+                a(href="") SSH connection name
+              li
+                a(href="") SSH connection name
+              li
+                a(href="") SSH connection name
+              li
+                a(href="") SSH connection name
+              li
+                a(href="") SSH connection name
+        .col-md-6
+          h2 Details
+          label  Type
+            select#type(name="type")
+              option(value="webdev") webdev
+              option(value="sftp") sftp
+              option(value="ftp") ftp
+          label  Host
+            input(type="text") 
+          label  User
+            input(type="text") 
+          label  password
+            input(type="text") 
+

@@ -36,22 +36,23 @@
     "gulp-header": "latest",
     "gulp-ignore": "latest",
     "gulp-imagemin": "latest",
-    "gulp-jshint": "latest",
+    "gulp-jshint": "^2.0.1",
     "gulp-load-plugins": "latest",
     "gulp-merge-media-queries": "latest",
     "gulp-notify": "latest",
     "gulp-plumber": "latest",
     "gulp-rename": "latest",
     "gulp-rimraf": "latest",
-    "gulp-uglify": "latest",
     "gulp-sass": "latest",
     "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
     "gulp-util": "latest",
     "gulp-zip": "latest",
-    "jshint-stylish": "latest"
+    "jshint": "^2.9.3",
+    "jshint-stylish": "latest",
+    "gulp-pug": "latest"
   },
   "dependencies": {
-    "pug": "latest",
     "jquery": "latest",
     "jquery-ui": "latest",
     "react": "latest"
